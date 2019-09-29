@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b5415b-9000-4a94-91d6-70a85bd89b6e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ConsumerDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ConsumerDemoAssignSeek.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ConsumerDemoGroups.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ConsumerDemoWithThread$ConsumerRunnable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ConsumerDemoWithThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ProducerDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ProducerDemoKeys$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ProducerDemoKeys.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ProducerDemoWithCallback$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial1/ProducerDemoWithCallback.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial2/TwitterProducer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/github/gekif/kafka/tutorial2/TwitterProducer.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com.github.gekif.kafka/ElasticSearchConsumer.java" afterPath="$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com.github.gekif.kafka/ElasticSearchConsumer.java" />
     </list>
@@ -45,11 +33,22 @@
       <file leaf-file-name="ElasticSearchConsumer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com.github.gekif.kafka/ElasticSearchConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="108">
+              <caret line="65" column="35" lean-forward="false" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2050#2066#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerDemoGroups.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemoGroups.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,8 +141,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
     <option name="width" value="678" />
     <option name="height" value="734" />
   </component>
@@ -516,7 +515,7 @@
       <workItem from="1569556503590" duration="637000" />
       <workItem from="1569659314768" duration="1523000" />
       <workItem from="1569745953586" duration="4117000" />
-      <workItem from="1569757280417" duration="1010000" />
+      <workItem from="1569757280417" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="07. Kafka Java Programming (101): 4. Java Producer">
       <created>1569405768191</created>
@@ -609,14 +608,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569750648855</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="10. Kafka ElasticSearch Consumer &amp; Advanced Configurations: 4. Consumer Part 1 - Setup Project (For Localhost)">
+      <created>1569758315603</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569758315603</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22403000" />
+    <option name="totallyTimeSpent" value="23320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-14" y="0" width="678" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -628,11 +634,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33812407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33444816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5822368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5819398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -696,7 +702,8 @@
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations: 12. Producer Part 4 - High Throughput Producer" />
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations: 16. Refactoring The Project" />
     <MESSAGE value="10. Kafka ElasticSearch Consumer &amp; Advanced Configurations: 4. Consumer Part 1 - Setup Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. Kafka ElasticSearch Consumer &amp; Advanced Configurations: 4. Consumer Part 1 - Setup Project" />
+    <MESSAGE value="10. Kafka ElasticSearch Consumer &amp; Advanced Configurations: 4. Consumer Part 1 - Setup Project (For Localhost)" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. Kafka ElasticSearch Consumer &amp; Advanced Configurations: 4. Consumer Part 1 - Setup Project (For Localhost)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,6 +722,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2050#2066#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -811,12 +819,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemoGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kafka-consumer-elasticsearch/src/main/java/com.github.gekif.kafka/ElasticSearchConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="65" column="35" lean-forward="false" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2050#2066#0" expanded="true" />
           </folding>
         </state>
       </provider>
