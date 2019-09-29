@@ -29,7 +29,10 @@ public class TwitterProducer {
     String consumerSecret = "aWU9LmJ0CNTW61GsJ8M3f2DmO13o30nuhWRajwTZU9VGvKc9C7";
     String token = "1869753384-PzcRzPSEhoVEsMQi3jKahw2w179mDIxtQPYqYHj";
     String secret = "Et4uPJ48YEevQqoByYcYFJtCreXwaA7GPTj4cbwVkcqni";
-    List<String> terms = Lists.newArrayList("kafka");
+    List<String> terms = Lists.newArrayList(
+            "bitcoin",
+            "indonesia", "jokowi", "dpr", "rocky gerung"
+    );
 
     public TwitterProducer() {
 
@@ -130,7 +133,12 @@ public class TwitterProducer {
         properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.setProperty(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 
-        // Create Save Producer
+        // High throughput producer (at the expense of a bit of latency and CPU usage)
+        properties.setProperty(ProducerConfig.COMPRESSION_TYPE_CONFIG, "snappy");
+        properties.setProperty(ProducerConfig.LINGER_MS_CONFIG, "20");
+        properties.setProperty(ProducerConfig.BATCH_SIZE_CONFIG, Integer.toString(32 * 1024));// 32 KB Batch Size
+
+        // Create Save Produce
         properties.setProperty(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG, "true");
         properties.setProperty(ProducerConfig.ACKS_CONFIG, "all");
         properties.setProperty(ProducerConfig.RETRIES_CONFIG, Integer.toString(Integer.MAX_VALUE));

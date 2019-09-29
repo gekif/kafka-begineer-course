@@ -40,12 +40,12 @@
       <file leaf-file-name="TwitterProducer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="132" column="31" lean-forward="true" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
+            <state relative-caret-position="34">
+              <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1651#1659#0" expanded="true" />
-                <element signature="e#5269#5285#0" expanded="true" />
+                <element signature="e#1729#1737#0" expanded="true" />
+                <element signature="e#5701#5717#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,8 +113,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="width" value="485" />
+    <option name="x" value="-36" />
+    <option name="width" value="580" />
     <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -417,7 +417,8 @@
       <workItem from="1569401520329" duration="6252000" />
       <workItem from="1569463639647" duration="8864000" />
       <workItem from="1569556503590" duration="637000" />
-      <workItem from="1569659314768" duration="883000" />
+      <workItem from="1569659314768" duration="1523000" />
+      <workItem from="1569745953586" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="07. Kafka Java Programming (101): 4. Java Producer">
       <created>1569405768191</created>
@@ -482,11 +483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569495233202</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 3 - Safe Producer">
+      <created>1569661537719</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569661537720</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16636000" />
+    <option name="totallyTimeSpent" value="18135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -499,10 +507,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34114978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29769737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33882353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29276314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33444816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32072368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53097343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -563,7 +571,8 @@
     <MESSAGE value="07. Kafka Java Programming (101): 10. Java Consumer Seek and Assign" />
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations ): 2. Twitter Setup" />
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 1 - Writing Twitter Client and 4. Producer Part 2 - Writing the Kafka Producer" />
-    <option name="LAST_COMMIT_MESSAGE" value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 1 - Writing Twitter Client and 4. Producer Part 2 - Writing the Kafka Producer" />
+    <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 3 - Safe Producer" />
+    <option name="LAST_COMMIT_MESSAGE" value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 3 - Safe Producer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,12 +591,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="31" lean-forward="true" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1729#1737#0" expanded="true" />
+            <element signature="e#5701#5717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="63" lean-forward="true" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1651#1659#0" expanded="true" />
-            <element signature="e#5269#5285#0" expanded="true" />
+            <element signature="e#1729#1737#0" expanded="true" />
+            <element signature="e#5701#5717#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,8 +635,8 @@
           <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1651#1659#0" expanded="true" />
-            <element signature="e#5269#5285#0" expanded="true" />
+            <element signature="e#1729#1737#0" expanded="true" />
+            <element signature="e#5701#5717#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -685,12 +714,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="132" column="31" lean-forward="true" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
+        <state relative-caret-position="34">
+          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1651#1659#0" expanded="true" />
-            <element signature="e#5269#5285#0" expanded="true" />
+            <element signature="e#1729#1737#0" expanded="true" />
+            <element signature="e#5701#5717#0" expanded="true" />
           </folding>
         </state>
       </provider>
