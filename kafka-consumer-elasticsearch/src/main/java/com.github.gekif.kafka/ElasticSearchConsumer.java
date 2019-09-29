@@ -21,14 +21,26 @@ import java.io.IOException;
 public class ElasticSearchConsumer {
 
     public static RestHighLevelClient createClient(){
-        
+
+        //////////////////////////
+        /////////// IF YOU USE LOCAL ELASTICSEARCH
+        //////////////////////////
+
+          String hostname = "localhost";
+          RestClientBuilder builder = RestClient.builder(new HttpHost(hostname,9200,"http"));
+
+
+        //////////////////////////
+        /////////// IF YOU USE BONSAI / HOSTED ELASTICSEARCH
+        //////////////////////////
+
         // replace with your own credentials
-        String hostname = "kafka-course-8841928855.ap-southeast-2.bonsaisearch.net"; // localhost or bonsai url
-        String username = "ydmx8h7dzm"; // needed only for bonsai
-        String password = "h1zc164uys"; // needed only for bonsai
+       /* String hostname = ""; // localhost or bonsai url
+        String username = ""; // needed only for bonsai
+        String password = ""; // needed only for bonsai*/
 
         // credentials provider help supply username and password
-        final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
+        /*final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY,
                 new UsernamePasswordCredentials(username, password));
 
@@ -39,7 +51,7 @@ public class ElasticSearchConsumer {
                     public HttpAsyncClientBuilder customizeHttpClient(HttpAsyncClientBuilder httpClientBuilder) {
                         return httpClientBuilder.setDefaultCredentialsProvider(credentialsProvider);
                     }
-                });
+                });*/
 
         RestHighLevelClient client = new RestHighLevelClient(builder);
         return client;
