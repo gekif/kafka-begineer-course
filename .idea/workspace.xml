@@ -2,11 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b5415b-9000-4a94-91d6-70a85bd89b6e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka-basics/kafka-basics.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka-basics/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka-producer-twitter/kafka-producer-twitter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemo.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemoAssignSeek.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemoAssignSeek.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemoGroups.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemoGroups.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemoWithThread.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemoWithThread.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ProducerDemo.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ProducerDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ProducerDemoKeys.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ProducerDemoKeys.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ProducerDemoWithCallback.java" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ProducerDemoWithCallback.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java" afterPath="$PROJECT_DIR$/kafka-producer-twitter/src/main/java/kafka/tutorial2/TwitterProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-begineer-course.iml" afterPath="$PROJECT_DIR$/kafka-begineer-course.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-producer-twitter/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-basics/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,23 +48,39 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="171">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwitterProducer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-basics/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1729#1737#0" expanded="true" />
-                <element signature="e#5701#5717#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="188">
+              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -85,8 +119,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemoGroups.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemoWithThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ConsumerDemoAssignSeek.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial2/TwitterProducer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-basics/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" />
       </list>
     </option>
   </component>
@@ -103,18 +139,14 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="kafka-begineer-course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kafka-begineer-course" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-36" />
-    <option name="width" value="580" />
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="629" />
     <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -133,6 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,46 +176,82 @@
             <path>
               <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-basics" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-producer-twitter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-begineer-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-begineer-course" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,6 +267,10 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.gekif.kafka.tutorial1" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo T430\Documents\JavaProject\kafka-begineer-course\kafka-producer-twitter\src\main\java" />
+      <recent name="C:\Users\Lenovo T430\Documents\JavaProject\kafka-begineer-course\kafka-basics\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwitterProducer">
+  <component name="RunManager" selected="Application.ProducerDemo">
     <configuration name="ConsumerDemoAssignSeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -269,14 +342,14 @@
       <module name="kafka-begineer-course" />
       <envs />
     </configuration>
-    <configuration name="ProducerDemoKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.github.gekif.kafka.tutorial1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.github.gekif.kafka.tutorial1.ProducerDemoKeys" />
+      <option name="MAIN_CLASS_NAME" value="com.github.gekif.kafka.tutorial1.ProducerDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -285,7 +358,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="kafka-begineer-course" />
+      <module name="kafka-basics" />
       <envs />
     </configuration>
     <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -388,19 +461,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ProducerDemoKeys" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ConsumerDemoGroups" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ConsumerDemoWithThread" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ConsumerDemoAssignSeek" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TwitterProducer" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ConsumerDemoGroups" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ConsumerDemoWithThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ConsumerDemoAssignSeek" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TwitterProducer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ProducerDemo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TwitterProducer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ConsumerDemoAssignSeek" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ConsumerDemoWithThread" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ConsumerDemoGroups" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ProducerDemoKeys" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ProducerDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TwitterProducer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ConsumerDemoAssignSeek" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ConsumerDemoWithThread" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ConsumerDemoGroups" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +491,7 @@
       <workItem from="1569463639647" duration="8864000" />
       <workItem from="1569556503590" duration="637000" />
       <workItem from="1569659314768" duration="1523000" />
-      <workItem from="1569745953586" duration="859000" />
+      <workItem from="1569745953586" duration="1704000" />
     </task>
     <task id="LOCAL-00001" summary="07. Kafka Java Programming (101): 4. Java Producer">
       <created>1569405768191</created>
@@ -490,11 +563,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569661537720</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="09. Kafka Twitter Producer &amp; Advanced Configurations: 12. Producer Part 4 - High Throughput Producer">
+      <created>1569746874604</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569746874604</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18135000" />
+    <option name="totallyTimeSpent" value="18980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -507,13 +587,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33882353" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33812407" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29276314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33444816" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53097343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -572,7 +652,8 @@
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations ): 2. Twitter Setup" />
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 1 - Writing Twitter Client and 4. Producer Part 2 - Writing the Kafka Producer" />
     <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 3 - Safe Producer" />
-    <option name="LAST_COMMIT_MESSAGE" value="09. Kafka Twitter Producer &amp; Advanced Configurations ):3. Producer Part 3 - Safe Producer" />
+    <MESSAGE value="09. Kafka Twitter Producer &amp; Advanced Configurations: 12. Producer Part 4 - High Throughput Producer" />
+    <option name="LAST_COMMIT_MESSAGE" value="09. Kafka Twitter Producer &amp; Advanced Configurations: 12. Producer Part 4 - High Throughput Producer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,11 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="132" column="31" lean-forward="true" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1729#1737#0" expanded="true" />
-            <element signature="e#5701#5717#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -613,11 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="61" column="63" lean-forward="true" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1729#1737#0" expanded="true" />
-            <element signature="e#5701#5717#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -633,11 +706,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1729#1737#0" expanded="true" />
-            <element signature="e#5701#5717#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -697,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/gekif/kafka/tutorial1/ProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -716,11 +777,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1729#1737#0" expanded="true" />
-            <element signature="e#5701#5717#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/src/main/java/kafka/tutorial1/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/src/main/java/kafka/tutorial1/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-basics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-producer-twitter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
