@@ -1,5 +1,7 @@
 package com.github.gekif.kafka;
 
+import com.google.gson.JsonParser;
+import jdk.nashorn.internal.parser.JSONParser;
 import org.apache.http.HttpHost;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -52,6 +54,16 @@ public class ElasticSearchConsumer {
         return consumer;
     }
 
+    private static JsonParser jsonParser = new JsonParser();
+
+    private static String extractIdFromTweet(String tweetJson) {
+        //gson library
+        return jsonParser.parse(tweetJson)
+                .getAsJsonObject()
+                .get("id_str")
+                .getAsString();
+    }
+
     
     public static void main(String[] args) throws IOException {
         Logger logger = LoggerFactory.getLogger(ElasticSearchConsumer.class.getName());
@@ -63,15 +75,25 @@ public class ElasticSearchConsumer {
             ConsumerRecords<String, String> records =
                     consumer.poll(Duration.ofMillis(100)); // New In Kafka 2.0.0
 
+
             for (ConsumerRecord<String, String> record : records) {
-               // Where we insert data into ElasticSearch
+
+                // 2 Strategies
+                // Kafka Generic ID
+                // String id = record.topic() + "_" + record.partition() + "_" + record.offset();
+
+                // Twitter feed specific id
+                String id = extractIdFromTweet(record.value());
+
+                // Where we insert data into ElasticSearch
                 IndexRequest indexRequest = new IndexRequest(
                         "twitter",
-                        "tweets"
+                        "tweets",
+                        id // this to make our consumer idempotent
                 ).source(record.value(), XContentType.JSON);
 
                 IndexResponse indexResponse = client.index(indexRequest, RequestOptions.DEFAULT);
-                String id = indexResponse.getId();
+
                 logger.info(id);
                 try {
                     Thread.sleep(1000);
